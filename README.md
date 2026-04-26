@@ -41,3 +41,14 @@ Filebeat → Elasticsearch → Kibana
 
 ## 🏷️ Tags
 `SIEM` `ELK Stack` `Cybersecurity` `SOC` `Log Analysis`
+## 🛡️ MITRE ATT&CK Coverage
+
+| Tactic | Technique | Event ID | Detection |
+|--------|-----------|----------|-----------|
+| Credential Access | T1110 - Brute Force | 4625 | ✅ |
+| Defense Evasion | T1078 - Valid Accounts | 4624 | ✅ |
+| Privilege Escalation | T1068 | 4672 | ✅ |
+| Persistence | T1136 - Create Account | 4720 | ✅ |
+| Impact | T1531 - Account Lockout | 4740 | ✅ |
+
+> Full mapping details in [docs/mitre-attack-mapping.md](docs/mitre-attack-mapping.md)
