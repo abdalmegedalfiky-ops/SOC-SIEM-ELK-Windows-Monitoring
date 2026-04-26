@@ -11,6 +11,20 @@ Filebeat → Elasticsearch → Kibana
 - Filebeat 9.3.3
 - Elastic Agent 9.3.3
 
+## 📸 Screenshots
+
+### Kibana Login
+![Kibana Login](screenshots/Screenshot%202026-04-26%20070650.png)
+
+### Kibana Home
+![Kibana Home](screenshots/Screenshot%202026-04-26%20070820.png)
+
+### Discover - Live Logs (16,858 Documents)
+![Discover](screenshots/Screenshot%202026-04-26%20071118.png)
+
+### Alerts - Brute Force Detection
+![Alerts](screenshots/Screenshot%202026-04-26%20071205.png)
+
 ## 🔴 Detection Rules
 | Event ID | Description          |
 |----------|----------------------|
@@ -24,12 +38,6 @@ Filebeat → Elasticsearch → Kibana
 - Brute Force Detection
 - Lateral Movement Monitoring
 - Privilege Escalation Alerts
-
-## 🚀 Setup
-1. Install ELK Stack
-2. Configure Elasticsearch
-3. Configure Filebeat
-4. Open Kibana Dashboard
 
 ## 🏷️ Tags
 `SIEM` `ELK Stack` `Cybersecurity` `SOC` `Log Analysis`
